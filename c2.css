@@ -1,0 +1,53 @@
+* html {
+    margin: 0;
+    padding: 0;
+}
+
+.judul {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    
+}
+
+
+table {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.music {
+    width: 320px;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0 , 0 , 0 , 0 , 2);
+    color: #fff;
+}
+
+.info {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #ccc;
+}
+
+audio {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+}
+
+.all {
+    justify-items: center;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg) translateX(-50%);
+    }
+    100% {
+        transform: rotate(350deg) translateX(-50%);
+    }
+}
